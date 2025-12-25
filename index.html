@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamro Topup Center</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <img src="banner.jpeg" class="banner">
+  <img src="logo.jpeg" class="logo">
+</header>
+
+<!-- GAMES -->
+<section class="games">
+  <h2>Choose Your Game</h2>
+  <div class="game-grid">
+    <div class="game" onclick="openPopup('Free Fire')"><img src="freefire.jpeg"><p>Free Fire</p></div>
+    <div class="game" onclick="openPopup('Mobile Legends')"><img src="ml.jpg"><p>Mobile Legends</p></div>
+    <div class="game" onclick="openPopup('PUBG')"><img src="pubg.webp"><p>PUBG</p></div>
+    <div class="game" onclick="openPopup('Unipin Voucher')"><img src="unipin.webp"><p>Unipin Voucher</p></div>
+    <div class="game" onclick="openPopup('Clash of Clans')"><img src="coc.jpg"><p>Clash of Clans</p></div>
+  </div>
+</section>
+
+<!-- POPUP -->
+<div id="popup" class="popup hidden">
+  <div class="popup-box">
+    <span class="close" onclick="closePopup()">×</span>
+    <h3 id="gameTitle"></h3>
+
+    <label>Package</label>
+    <select id="package">
+  <option value="">Select Package</option>
+</select>
+
+
+    <label>In-Game Name</label>
+    <input type="text" id="name">
+    
+
+    <label>User ID</label>
+    <input type="text" id="uid">
+
+    <button onclick="proceed()">Proceed</button>
+
+    <div id="payment" class="hidden">
+      <h4>Pay with eSewa</h4>
+      <img src="esewa-qr.jpeg" class="qr">
+      <a id="whatsapp" target="_blank" class="whatsapp-btn">
+        Send Payment Proof
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>Fast • Secure • Trusted Topup Service</p>
+  <div class="contact-box">
+                <a href="https://www.facebook.com/hamrotopup.center.69" target="_blank">
+  <img width="68" height="40" src="fb.png" alt="Facebook">
+</a>
+
+
+                <a href="https://www.tiktok.com/@hamro.topup?lang=en" target="_blank">
+  <img width="40" height="40" src="tiktok.avif" alt="tiktok">
+</a>
+
+                
+                <p><strong>WhatsApp:</strong> +977 9812837791</p>
+                <p><strong>Email:</strong> hamrotopup98@gmail.com</p>
+            </div>
+        </div>
+        
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
