@@ -3,7 +3,7 @@ let packages = {};
 
 const gamePackages = {
   "Free Fire": [
-   { name: "25💎", price: 35 },
+    { name: "25💎", price: 35 },
     { name: "50💎", price: 60 },
     { name: "115💎", price: 95 },
     { name: "240💎", price: 190 },
@@ -21,11 +21,11 @@ const gamePackages = {
     { name: "Levelup pass🎟", price: 530 },
   ],
   "Mobile Legends": [
-   { name: "55 Diamonds", price: 160 },
+    { name: "55 Diamonds", price: 160 },
     { name: "110 Diamonds", price: 270 },
     { name: "165 Diamonds", price: 355 },
     { name: "257 Diamonds", price: 540 },
-     { name: "312 Diamonds", price: 670 },
+    { name: "312 Diamonds", price: 670 },
     { name: "447 Diamonds", price: 930 }, 
     { name: "514 Diamonds", price: 1070 },
     { name: "706 Diamonds", price: 1450 },
@@ -41,7 +41,7 @@ const gamePackages = {
     { name: "325 UC", price: 620 }
   ],
   "Unipin Voucher": [
-   { name: "Voucher 1 pcs", price: 2230 },
+    { name: "Voucher 1 pcs", price: 2230 },
     { name: "Voucher2 pcs", price: 4430 },
     { name: "Voucher 3 pcs", price: 6650 },
     { name: "Voucher 5 pcs", price: 11100 },
@@ -49,7 +49,7 @@ const gamePackages = {
   ],
   "Clash of Clans": [
    { name: "comming soon", price: 0 },
-    { name: "comming soon", price: 0 },
+   { name: "comming soon", price: 0 },
   ]
 };
 
@@ -137,4 +137,5 @@ Please find my payment screenshot below.
   document.getElementById("whatsapp").href = whatsappURL;
   document.getElementById("payment").classList.remove("hidden");
 }
+
 
