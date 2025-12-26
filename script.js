@@ -3,24 +3,53 @@ let packages = {};
 
 const gamePackages = {
   "Free Fire": [
-    { name: "Weekly Membership", price: 190 },
-    { name: "Monthly Membership", price: 799 }
+   { name: "25💎", price: 35 },
+    { name: "50💎", price: 60 },
+    { name: "115💎", price: 95 },
+    { name: "240💎", price: 190 },
+    { name: "355💎", price: 280 },
+    { name: "480💎", price: 380 },
+    { name: "530💎", price: 440 },
+    { name: "610💎", price: 480 },
+    { name: "1090💎", price: 880 },
+    { name: "1240💎", price: 960 },
+    { name: "2530💎", price: 1870 },
+    { name: "5060💎", price: 3725 },
+    { name: "10120💎", price: 7400 },
+    { name: "Weekly Memberhip🎟", price: 190 },
+    { name: "Monthly Membershio🎟", price: 930 },
+    { name: "Levelup pass🎟", price: 530 },
   ],
   "Mobile Legends": [
-    { name: "86 Diamonds", price: 220 },
-    { name: "172 Diamonds", price: 430 }
+   { name: "55 Diamonds", price: 160 },
+    { name: "110 Diamonds", price: 270 },
+    { name: "165 Diamonds", price: 355 },
+    { name: "257 Diamonds", price: 540 },
+     { name: "312 Diamonds", price: 670 },
+    { name: "447 Diamonds", price: 930 }, 
+    { name: "514 Diamonds", price: 1070 },
+    { name: "706 Diamonds", price: 1450 },
+    { name: "1050 Diamonds", price: 2140 }, 
+    { name: "2195 Diamonds", price: 4260 },
+    { name: "3688 Diamonds", price: 7000 },
+    { name: "5532 Diamonds", price: 10460 }, 
+    { name: "Weekly 🎟", price: 250 },
+    { name: "Twilight 🎟", price: 1220 },
   ],
   "PUBG": [
     { name: "60 UC", price: 120 },
     { name: "325 UC", price: 620 }
   ],
   "Unipin Voucher": [
-    { name: "Rs 500 Voucher", price: 500 },
-    { name: "Rs 1000 Voucher", price: 1000 }
+   { name: "Voucher 1 pcs", price: 2230 },
+    { name: "Voucher2 pcs", price: 4430 },
+    { name: "Voucher 3 pcs", price: 6650 },
+    { name: "Voucher 5 pcs", price: 11100 },
+    { name: "Voucher 10 pcs", price: 22200 },
   ],
   "Clash of Clans": [
-    { name: "Gold Pass", price: 899 },
-    { name: "500 Gems", price: 699 }
+   { name: "comming soon", price: 0 },
+    { name: "comming soon", price: 0 },
   ]
 };
 
@@ -108,3 +137,4 @@ Please find my payment screenshot below.
   document.getElementById("whatsapp").href = whatsappURL;
   document.getElementById("payment").classList.remove("hidden");
 }
+
