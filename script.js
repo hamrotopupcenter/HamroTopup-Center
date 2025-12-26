@@ -114,12 +114,13 @@ function proceed() {
 1x ${currentGame}
 🔥 ${packName}
 -------------------------
-User ID: ${uid}
+User ID: ${uid} 
+In-Game Name: ${name}
 
 Item total: Rs ${price}
 Total: Rs ${price}
 
-Customer: ${name}
+
 Payment: eSewa (Confirming)
 
 Date: ${date}
@@ -137,6 +138,7 @@ Please find my payment screenshot below.
   document.getElementById("whatsapp").href = whatsappURL;
   document.getElementById("payment").classList.remove("hidden");
 }
+
 
 
 
